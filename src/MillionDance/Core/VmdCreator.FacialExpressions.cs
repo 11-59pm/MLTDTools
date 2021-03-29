@@ -168,7 +168,9 @@ namespace OpenMLTD.MillionDance.Core {
                         // Don't generate frames for these control codes(?)
                         case LipCode.Control1:
                         case LipCode.Control2:
-                        case LipCode.Control3: {
+                        case LipCode.Control3:
+                        case LipCode.Control4:
+                        case LipCode.Control5:{
                             shouldUpdateLastFrameTime = false;
                             break;
                         }
