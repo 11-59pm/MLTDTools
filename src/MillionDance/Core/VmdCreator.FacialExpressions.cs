@@ -243,6 +243,8 @@ namespace OpenMLTD.MillionDance.Core {
                 case LipCode.Control1:
                 case LipCode.Control2:
                 case LipCode.Control3:
+                case LipCode.Control4:
+                case LipCode.Control5:                    
                     return false;
                 default:
                     throw new ArgumentOutOfRangeException(nameof(code), code, "Invalid lip code.");
@@ -484,6 +486,9 @@ namespace OpenMLTD.MillionDance.Core {
 
             // アライブファクター (alivef) idol 1 at frame 6207 @60fps, pronouncing "す"
             Control3 = 57,
+            
+            Control4 = 58,
+            Control5 = 59,
 
         }
 
